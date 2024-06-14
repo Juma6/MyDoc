@@ -15,6 +15,8 @@
 	<description>A chatbot for clients to an online doctor</description>
 	<properties>
 		<java.version>17</java.version>
+		<maven.compiler.source>19</maven.compiler.source>
+		<maven.compiler.target>19</maven.compiler.target>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -39,6 +41,10 @@
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-boot-starter</artifactId>
 			<version>3.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.h2database</groupId>
